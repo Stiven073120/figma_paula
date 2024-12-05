@@ -6,11 +6,8 @@ export default function SectionOne() {
     <div className="flex flex-col justify-center items-center w-4/5 mx-auto mt-5 p-5 bg-cover bg-center rounded-[40px]" style={{ backgroundImage: 'url(/images/bgSectionOne.png)' }}>
       <Nadvar />
       <div>
-        <h2>Verde Hogar</h2>
-        <p>
-          Explora el mundo de las plantas y aprende a cuidar de tu propio oasis
-          verde
-        </p>
+        <h2 className ="text-[100px]  text-center text-white">Verde Hogar</h2>
+        <p className ="text-white text-[25px] text-center mx-auto max-w-[600px] leading-relaxed mt-2">Explora el mundo de las plantas y aprende a cuidar de tu propio oasis verde</p>
       </div>
       <div className="flex flex-row-reverse gap-20 justify-evenly">
         <CardSectionOne description="Descubre las mejores plantas de interior para decorar y mejorar tus espacios." />
