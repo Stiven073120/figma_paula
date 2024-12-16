@@ -12,6 +12,13 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        quicksand: ['"Quicksand"', 'sans-serif'], // Para texto moderno y ligero
+        rem: ['"REM"', 'sans-serif'], // Fuente específica para diseño estilizado
+        murecho: ['"Murecho"', 'sans-serif'], // Fuente japonesa estilizada
+        poppins: ['"Poppins"', 'sans-serif'], // Fuente minimalista y profesional
+        alfaSlabOne: ['"Alfa Slab One"', 'serif'], // Fuente para títulos destacados
+      },
     },
   },
   plugins: [],
